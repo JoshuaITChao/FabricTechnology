@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8BD13152477DB28006D7F9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD13142477DB28006D7F9B /* main.m */; };
+		E8BD132B2477DB45006D7F9B /* MCStudent+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD131B2477DB45006D7F9B /* MCStudent+Test1.m */; };
+		E8BD132C2477DB45006D7F9B /* MCStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD131C2477DB45006D7F9B /* MCStudent.m */; };
+		E8BD132D2477DB45006D7F9B /* MCPerson+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD131E2477DB45006D7F9B /* MCPerson+Test1.m */; };
+		E8BD132E2477DB45006D7F9B /* MCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD13222477DB45006D7F9B /* MCPerson.m */; };
+		E8BD132F2477DB45006D7F9B /* MCStudent+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD13252477DB45006D7F9B /* MCStudent+Test2.m */; };
+		E8BD13302477DB45006D7F9B /* MCPerson+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD13272477DB45006D7F9B /* MCPerson+Test2.m */; };
+		E8BD13312477DB45006D7F9B /* MCDog.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD13282477DB45006D7F9B /* MCDog.m */; };
+		E8BD13322477DB45006D7F9B /* MCCat.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD132A2477DB45006D7F9B /* MCCat.m */; };
+		E8BD13352477DB6C006D7F9B /* MCTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD13342477DB6C006D7F9B /* MCTeacher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8BD130F2477DB28006D7F9B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E8BD13112477DB28006D7F9B /* Interview03-+initialize底层实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Interview03-+initialize底层实现"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8BD13142477DB28006D7F9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8BD131B2477DB45006D7F9B /* MCStudent+Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MCStudent+Test1.m"; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCStudent+Test1.m"; sourceTree = "<group>"; };
+		E8BD131C2477DB45006D7F9B /* MCStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCStudent.m; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCStudent.m"; sourceTree = "<group>"; };
+		E8BD131D2477DB45006D7F9B /* MCStudent+Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MCStudent+Test1.h"; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCStudent+Test1.h"; sourceTree = "<group>"; };
+		E8BD131E2477DB45006D7F9B /* MCPerson+Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MCPerson+Test1.m"; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCPerson+Test1.m"; sourceTree = "<group>"; };
+		E8BD131F2477DB45006D7F9B /* MCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCPerson.h; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCPerson.h"; sourceTree = "<group>"; };
+		E8BD13202477DB45006D7F9B /* MCCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCCat.h; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCCat.h"; sourceTree = "<group>"; };
+		E8BD13212477DB45006D7F9B /* MCStudent+Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MCStudent+Test2.h"; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCStudent+Test2.h"; sourceTree = "<group>"; };
+		E8BD13222477DB45006D7F9B /* MCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCPerson.m; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCPerson.m"; sourceTree = "<group>"; };
+		E8BD13232477DB45006D7F9B /* MCStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCStudent.h; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCStudent.h"; sourceTree = "<group>"; };
+		E8BD13242477DB45006D7F9B /* MCPerson+Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MCPerson+Test1.h"; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCPerson+Test1.h"; sourceTree = "<group>"; };
+		E8BD13252477DB45006D7F9B /* MCStudent+Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MCStudent+Test2.m"; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCStudent+Test2.m"; sourceTree = "<group>"; };
+		E8BD13262477DB45006D7F9B /* MCPerson+Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MCPerson+Test2.h"; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCPerson+Test2.h"; sourceTree = "<group>"; };
+		E8BD13272477DB45006D7F9B /* MCPerson+Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MCPerson+Test2.m"; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCPerson+Test2.m"; sourceTree = "<group>"; };
+		E8BD13282477DB45006D7F9B /* MCDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCDog.m; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCDog.m"; sourceTree = "<group>"; };
+		E8BD13292477DB45006D7F9B /* MCDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCDog.h; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCDog.h"; sourceTree = "<group>"; };
+		E8BD132A2477DB45006D7F9B /* MCCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCCat.m; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCCat.m"; sourceTree = "<group>"; };
+		E8BD13332477DB6C006D7F9B /* MCTeacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCTeacher.h; sourceTree = "<group>"; };
+		E8BD13342477DB6C006D7F9B /* MCTeacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCTeacher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8BD130E2477DB28006D7F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8BD13082477DB28006D7F9B = {
+			isa = PBXGroup;
+			children = (
+				E8BD13132477DB28006D7F9B /* Interview03-+initialize底层实现 */,
+				E8BD13122477DB28006D7F9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8BD13122477DB28006D7F9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8BD13112477DB28006D7F9B /* Interview03-+initialize底层实现 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8BD13132477DB28006D7F9B /* Interview03-+initialize底层实现 */ = {
+			isa = PBXGroup;
+			children = (
+				E8BD13142477DB28006D7F9B /* main.m */,
+				E8BD131F2477DB45006D7F9B /* MCPerson.h */,
+				E8BD13222477DB45006D7F9B /* MCPerson.m */,
+				E8BD13242477DB45006D7F9B /* MCPerson+Test1.h */,
+				E8BD131E2477DB45006D7F9B /* MCPerson+Test1.m */,
+				E8BD13262477DB45006D7F9B /* MCPerson+Test2.h */,
+				E8BD13272477DB45006D7F9B /* MCPerson+Test2.m */,
+				E8BD13232477DB45006D7F9B /* MCStudent.h */,
+				E8BD131C2477DB45006D7F9B /* MCStudent.m */,
+				E8BD131D2477DB45006D7F9B /* MCStudent+Test1.h */,
+				E8BD131B2477DB45006D7F9B /* MCStudent+Test1.m */,
+				E8BD13212477DB45006D7F9B /* MCStudent+Test2.h */,
+				E8BD13252477DB45006D7F9B /* MCStudent+Test2.m */,
+				E8BD13332477DB6C006D7F9B /* MCTeacher.h */,
+				E8BD13342477DB6C006D7F9B /* MCTeacher.m */,
+				E8BD13202477DB45006D7F9B /* MCCat.h */,
+				E8BD132A2477DB45006D7F9B /* MCCat.m */,
+				E8BD13292477DB45006D7F9B /* MCDog.h */,
+				E8BD13282477DB45006D7F9B /* MCDog.m */,
+			);
+			path = "Interview03-+initialize底层实现";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8BD13102477DB28006D7F9B /* Interview03-+initialize底层实现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8BD13182477DB28006D7F9B /* Build configuration list for PBXNativeTarget "Interview03-+initialize底层实现" */;
+			buildPhases = (
+				E8BD130D2477DB28006D7F9B /* Sources */,
+				E8BD130E2477DB28006D7F9B /* Frameworks */,
+				E8BD130F2477DB28006D7F9B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Interview03-+initialize底层实现";
+			productName = "Interview03-+initialize底层实现";
+			productReference = E8BD13112477DB28006D7F9B /* Interview03-+initialize底层实现 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8BD13092477DB28006D7F9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "rz-technology";
+				TargetAttributes = {
+					E8BD13102477DB28006D7F9B = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E8BD130C2477DB28006D7F9B /* Build configuration list for PBXProject "Interview03-+initialize底层实现" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8BD13082477DB28006D7F9B;
+			productRefGroup = E8BD13122477DB28006D7F9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8BD13102477DB28006D7F9B /* Interview03-+initialize底层实现 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8BD130D2477DB28006D7F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BD13322477DB45006D7F9B /* MCCat.m in Sources */,
+				E8BD132F2477DB45006D7F9B /* MCStudent+Test2.m in Sources */,
+				E8BD132C2477DB45006D7F9B /* MCStudent.m in Sources */,
+				E8BD13152477DB28006D7F9B /* main.m in Sources */,
+				E8BD132E2477DB45006D7F9B /* MCPerson.m in Sources */,
+				E8BD13312477DB45006D7F9B /* MCDog.m in Sources */,
+				E8BD132D2477DB45006D7F9B /* MCPerson+Test1.m in Sources */,
+				E8BD132B2477DB45006D7F9B /* MCStudent+Test1.m in Sources */,
+				E8BD13352477DB6C006D7F9B /* MCTeacher.m in Sources */,
+				E8BD13302477DB45006D7F9B /* MCPerson+Test2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E8BD13162477DB28006D7F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E8BD13172477DB28006D7F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E8BD13192477DB28006D7F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8BD131A2477DB28006D7F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8BD130C2477DB28006D7F9B /* Build configuration list for PBXProject "Interview03-+initialize底层实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8BD13162477DB28006D7F9B /* Debug */,
+				E8BD13172477DB28006D7F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8BD13182477DB28006D7F9B /* Build configuration list for PBXNativeTarget "Interview03-+initialize底层实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8BD13192477DB28006D7F9B /* Debug */,
+				E8BD131A2477DB28006D7F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8BD13092477DB28006D7F9B /* Project object */;
+}
