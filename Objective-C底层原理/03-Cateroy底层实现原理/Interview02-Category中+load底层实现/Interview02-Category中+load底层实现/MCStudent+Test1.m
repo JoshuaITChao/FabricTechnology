@@ -11,9 +11,9 @@
 
 @implementation MCStudent (Test1)
 
-+ (void)initialize
-{
-    NSLog(@"MCStudent(Test1) +initialize");
-}
+//+ (void)initialize
+//{
+//    NSLog(@"MCStudent(Test1) +initialize");
+//}
 
 @end

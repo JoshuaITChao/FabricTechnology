@@ -165,15 +165,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8BD13322477DB45006D7F9B /* MCCat.m in Sources */,
+				E8BD132B2477DB45006D7F9B /* MCStudent+Test1.m in Sources */,
 				E8BD132F2477DB45006D7F9B /* MCStudent+Test2.m in Sources */,
 				E8BD132C2477DB45006D7F9B /* MCStudent.m in Sources */,
 				E8BD13152477DB28006D7F9B /* main.m in Sources */,
 				E8BD132E2477DB45006D7F9B /* MCPerson.m in Sources */,
 				E8BD13312477DB45006D7F9B /* MCDog.m in Sources */,
 				E8BD132D2477DB45006D7F9B /* MCPerson+Test1.m in Sources */,
-				E8BD132B2477DB45006D7F9B /* MCStudent+Test1.m in Sources */,
-				E8BD13352477DB6C006D7F9B /* MCTeacher.m in Sources */,
 				E8BD13302477DB45006D7F9B /* MCPerson+Test2.m in Sources */,
+				E8BD13352477DB6C006D7F9B /* MCTeacher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

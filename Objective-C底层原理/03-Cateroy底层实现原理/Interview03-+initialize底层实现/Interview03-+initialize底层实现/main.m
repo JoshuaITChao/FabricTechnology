@@ -46,18 +46,39 @@ int main(int argc, const char * argv[]) {
         [MCStudent alloc];
         
         // 模拟[MCStudent alloc]触发+initialized的底层逻辑
-        BOOL studentInitialized = NO;
-        BOOL personIntialized = NO;
-        BOOL teacherInitialized = NO;
+//        BOOL studentInitialized = NO;
+//        BOOL personIntialized = NO;
+//        BOOL teacherInitialized = NO;
+//
+//        if(!studentInitialized){
+//            if(!personIntialized){
+//                objc_msgSend([MCPerson class], @selector(initialize));
+//                personIntialized = YES;
+//            }
+//            objc_msgSend([MCStudent class], @selector(initialize));
+//            studentInitialized = YES;
+//        }
         
-        if(!studentInitialized){
-            if(!personIntialized){
-                objc_msgSend([MCPerson class], @selector(initialize));
-                personIntialized = YES;
-            }
-            objc_msgSend([MCStudent class], @selector(initialize));
-            studentInitialized = YES;
-        }
+//        [MCTeacher alloc];
+        
+        // MCTeacher的底层触发+initialized的逻辑如下
+//        if(!teacherInitialized){
+//            if(!personIntialized){
+//                objc_msgSend([MCPerson class], @selector(initialize));
+//                personIntialized = YES;
+//            }
+//            objc_msgSend([MCTeacher class], @selector(initialize));
+//            teacherInitialized = YES;
+//        }
+        
+        
+        
+//        [MCPerson alloc];
+//        objc_msgSend([MCPerson class], @selector(alloc));
+        
+        // isa -> 类对象/元类对象，寻找方法，调用
+        // superclass -> 类对象/元类对象，寻找方法调用
+        
     }
     return 0;
 }
