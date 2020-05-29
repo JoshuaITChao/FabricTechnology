@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8BD15962480EC9A006D7F9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD15952480EC9A006D7F9B /* AppDelegate.m */; };
+		E8BD159C2480EC9A006D7F9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD159B2480EC9A006D7F9B /* ViewController.m */; };
+		E8BD159F2480EC9A006D7F9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8BD159D2480EC9A006D7F9B /* Main.storyboard */; };
+		E8BD15A12480EC9B006D7F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8BD15A02480EC9B006D7F9B /* Assets.xcassets */; };
+		E8BD15A42480EC9B006D7F9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8BD15A22480EC9B006D7F9B /* LaunchScreen.storyboard */; };
+		E8BD15A72480EC9B006D7F9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD15A62480EC9B006D7F9B /* main.m */; };
+		E8BD15AF2480ECCE006D7F9B /* MCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD15AE2480ECCE006D7F9B /* MCPerson.m */; };
+		E8BD15B22480ECDB006D7F9B /* MCStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD15B12480ECDB006D7F9B /* MCStudent.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E8BD15912480EC9A006D7F9B /* Interview12-超变态的面试题关于super.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interview12-超变态的面试题关于super.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8BD15942480EC9A006D7F9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8BD15952480EC9A006D7F9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8BD159A2480EC9A006D7F9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E8BD159B2480EC9A006D7F9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E8BD159E2480EC9A006D7F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8BD15A02480EC9B006D7F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8BD15A32480EC9B006D7F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8BD15A52480EC9B006D7F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8BD15A62480EC9B006D7F9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8BD15AD2480ECCE006D7F9B /* MCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCPerson.h; sourceTree = "<group>"; };
+		E8BD15AE2480ECCE006D7F9B /* MCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCPerson.m; sourceTree = "<group>"; };
+		E8BD15B02480ECDB006D7F9B /* MCStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCStudent.h; sourceTree = "<group>"; };
+		E8BD15B12480ECDB006D7F9B /* MCStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCStudent.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8BD158E2480EC9A006D7F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8BD15882480EC9A006D7F9B = {
+			isa = PBXGroup;
+			children = (
+				E8BD15932480EC9A006D7F9B /* Interview12-超变态的面试题关于super */,
+				E8BD15922480EC9A006D7F9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8BD15922480EC9A006D7F9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8BD15912480EC9A006D7F9B /* Interview12-超变态的面试题关于super.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8BD15932480EC9A006D7F9B /* Interview12-超变态的面试题关于super */ = {
+			isa = PBXGroup;
+			children = (
+				E8BD15942480EC9A006D7F9B /* AppDelegate.h */,
+				E8BD15952480EC9A006D7F9B /* AppDelegate.m */,
+				E8BD159A2480EC9A006D7F9B /* ViewController.h */,
+				E8BD159B2480EC9A006D7F9B /* ViewController.m */,
+				E8BD159D2480EC9A006D7F9B /* Main.storyboard */,
+				E8BD15A02480EC9B006D7F9B /* Assets.xcassets */,
+				E8BD15A22480EC9B006D7F9B /* LaunchScreen.storyboard */,
+				E8BD15A52480EC9B006D7F9B /* Info.plist */,
+				E8BD15A62480EC9B006D7F9B /* main.m */,
+				E8BD15AD2480ECCE006D7F9B /* MCPerson.h */,
+				E8BD15AE2480ECCE006D7F9B /* MCPerson.m */,
+				E8BD15B02480ECDB006D7F9B /* MCStudent.h */,
+				E8BD15B12480ECDB006D7F9B /* MCStudent.m */,
+			);
+			path = "Interview12-超变态的面试题关于super";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8BD15902480EC9A006D7F9B /* Interview12-超变态的面试题关于super */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8BD15AA2480EC9B006D7F9B /* Build configuration list for PBXNativeTarget "Interview12-超变态的面试题关于super" */;
+			buildPhases = (
+				E8BD158D2480EC9A006D7F9B /* Sources */,
+				E8BD158E2480EC9A006D7F9B /* Frameworks */,
+				E8BD158F2480EC9A006D7F9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Interview12-超变态的面试题关于super";
+			productName = "Interview12-超变态的面试题关于super";
+			productReference = E8BD15912480EC9A006D7F9B /* Interview12-超变态的面试题关于super.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8BD15892480EC9A006D7F9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "rz-technology";
+				TargetAttributes = {
+					E8BD15902480EC9A006D7F9B = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E8BD158C2480EC9A006D7F9B /* Build configuration list for PBXProject "Interview12-超变态的面试题关于super" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8BD15882480EC9A006D7F9B;
+			productRefGroup = E8BD15922480EC9A006D7F9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8BD15902480EC9A006D7F9B /* Interview12-超变态的面试题关于super */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8BD158F2480EC9A006D7F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BD15A42480EC9B006D7F9B /* LaunchScreen.storyboard in Resources */,
+				E8BD15A12480EC9B006D7F9B /* Assets.xcassets in Resources */,
+				E8BD159F2480EC9A006D7F9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8BD158D2480EC9A006D7F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BD15AF2480ECCE006D7F9B /* MCPerson.m in Sources */,
+				E8BD159C2480EC9A006D7F9B /* ViewController.m in Sources */,
+				E8BD15962480EC9A006D7F9B /* AppDelegate.m in Sources */,
+				E8BD15A72480EC9B006D7F9B /* main.m in Sources */,
+				E8BD15B22480ECDB006D7F9B /* MCStudent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8BD159D2480EC9A006D7F9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8BD159E2480EC9A006D7F9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8BD15A22480EC9B006D7F9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8BD15A32480EC9B006D7F9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8BD15A82480EC9B006D7F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E8BD15A92480EC9B006D7F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8BD15AB2480EC9B006D7F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Interview12-超变态的面试题关于super/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rz-technology.Interview12----------super";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8BD15AC2480EC9B006D7F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Interview12-超变态的面试题关于super/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rz-technology.Interview12----------super";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8BD158C2480EC9A006D7F9B /* Build configuration list for PBXProject "Interview12-超变态的面试题关于super" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8BD15A82480EC9B006D7F9B /* Debug */,
+				E8BD15A92480EC9B006D7F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8BD15AA2480EC9B006D7F9B /* Build configuration list for PBXNativeTarget "Interview12-超变态的面试题关于super" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8BD15AB2480EC9B006D7F9B /* Debug */,
+				E8BD15AC2480EC9B006D7F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8BD15892480EC9A006D7F9B /* Project object */;
+}
