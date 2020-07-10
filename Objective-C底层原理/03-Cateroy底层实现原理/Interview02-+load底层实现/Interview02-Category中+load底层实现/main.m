@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "MCPerson.h"
+#import "MCStudent.h"
 #import <objc/runtime.h>
 
 void printMethodNamesOfClass(Class cls)
@@ -39,7 +40,18 @@ void printMethodNamesOfClass(Class cls)
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
+        /**
+         * + load 方法会在runtime加载类、分类的时候调用
+         * 每个类、分类的 + load, 在程序运行过程中只调用一次
+         *
+         * 调用顺序：
+         * 1.先调用类的 + load
+         * 按照编译的先后顺序调用（先编译，先调用）
+         * 调用子类的 + load 之前会先调用父类的 + load
+         *
+         * 2.再调用分类的 +load
+         * 按照编译的先后顺序调用（先编译、先调用）
+         */
     }
     return 0;
 }

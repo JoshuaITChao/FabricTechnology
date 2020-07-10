@@ -10,9 +10,9 @@
 
 @implementation MCDog
 
-+ (void)initialize
++ (void)load
 {
-    NSLog(@"MCDog +initialize");
+    NSLog(@"MCDog +load");
 }
 
 @end

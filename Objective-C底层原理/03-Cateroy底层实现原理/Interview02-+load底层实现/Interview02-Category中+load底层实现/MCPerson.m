@@ -10,10 +10,14 @@
 
 @implementation MCPerson
 
-+ (void)initialize
++ (void)load
 {
-    NSLog(@"MCPerson +initialize");
+    NSLog(@"MCPerson +load");
 }
 
++ (void)test
+{
+    NSLog(@"MCPerson +test");
+}
 
 @end

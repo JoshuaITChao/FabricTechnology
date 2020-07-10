@@ -10,9 +10,9 @@
 
 @implementation MCStudent
 
-//+ (void)initialize
-//{
-//    NSLog(@"MCStudent +initialize");
-//}
++ (void)load
+{
+    NSLog(@"MCStudent +load");
+}
 
 @end
