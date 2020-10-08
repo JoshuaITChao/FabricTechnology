@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D3F48B524BE076A00729297 /* MCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F48A624BE076900729297 /* MCPerson.m */; };
+		1D3F48B624BE076A00729297 /* MCPerson+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F48A824BE076A00729297 /* MCPerson+Test1.m */; };
+		1D3F48B724BE076A00729297 /* MCStudent+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F48A924BE076A00729297 /* MCStudent+Test1.m */; };
+		1D3F48B824BE076A00729297 /* MCPerson+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F48AA24BE076A00729297 /* MCPerson+Test2.m */; };
+		1D3F48B924BE076A00729297 /* MCCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F48B024BE076A00729297 /* MCCat.m */; };
+		1D3F48BA24BE076A00729297 /* MCStudent+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F48B124BE076A00729297 /* MCStudent+Test2.m */; };
+		1D3F48BB24BE076A00729297 /* MCStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F48B224BE076A00729297 /* MCStudent.m */; };
+		1D3F48BC24BE076A00729297 /* MCDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F48B324BE076A00729297 /* MCDog.m */; };
+		1DE3490D24C7C6BE00E6F342 /* MCITPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3490C24C7C6BE00E6F342 /* MCITPerson.m */; };
 		E8BD13152477DB28006D7F9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD13142477DB28006D7F9B /* main.m */; };
-		E8BD132B2477DB45006D7F9B /* MCStudent+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD131B2477DB45006D7F9B /* MCStudent+Test1.m */; };
-		E8BD132C2477DB45006D7F9B /* MCStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD131C2477DB45006D7F9B /* MCStudent.m */; };
-		E8BD132D2477DB45006D7F9B /* MCPerson+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD131E2477DB45006D7F9B /* MCPerson+Test1.m */; };
-		E8BD132E2477DB45006D7F9B /* MCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD13222477DB45006D7F9B /* MCPerson.m */; };
-		E8BD132F2477DB45006D7F9B /* MCStudent+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD13252477DB45006D7F9B /* MCStudent+Test2.m */; };
-		E8BD13302477DB45006D7F9B /* MCPerson+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD13272477DB45006D7F9B /* MCPerson+Test2.m */; };
-		E8BD13312477DB45006D7F9B /* MCDog.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD13282477DB45006D7F9B /* MCDog.m */; };
-		E8BD13322477DB45006D7F9B /* MCCat.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD132A2477DB45006D7F9B /* MCCat.m */; };
 		E8BD13352477DB6C006D7F9B /* MCTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BD13342477DB6C006D7F9B /* MCTeacher.m */; };
 /* End PBXBuildFile section */
 
@@ -32,24 +33,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D3F48A524BE076900729297 /* MCStudent+Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCStudent+Test2.h"; sourceTree = "<group>"; };
+		1D3F48A624BE076900729297 /* MCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPerson.m; sourceTree = "<group>"; };
+		1D3F48A724BE076900729297 /* MCPerson+Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCPerson+Test1.h"; sourceTree = "<group>"; };
+		1D3F48A824BE076A00729297 /* MCPerson+Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MCPerson+Test1.m"; sourceTree = "<group>"; };
+		1D3F48A924BE076A00729297 /* MCStudent+Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MCStudent+Test1.m"; sourceTree = "<group>"; };
+		1D3F48AA24BE076A00729297 /* MCPerson+Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MCPerson+Test2.m"; sourceTree = "<group>"; };
+		1D3F48AB24BE076A00729297 /* MCStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStudent.h; sourceTree = "<group>"; };
+		1D3F48AC24BE076A00729297 /* MCStudent+Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCStudent+Test1.h"; sourceTree = "<group>"; };
+		1D3F48AD24BE076A00729297 /* MCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPerson.h; sourceTree = "<group>"; };
+		1D3F48AE24BE076A00729297 /* MCDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDog.h; sourceTree = "<group>"; };
+		1D3F48AF24BE076A00729297 /* MCCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCat.h; sourceTree = "<group>"; };
+		1D3F48B024BE076A00729297 /* MCCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCat.m; sourceTree = "<group>"; };
+		1D3F48B124BE076A00729297 /* MCStudent+Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MCStudent+Test2.m"; sourceTree = "<group>"; };
+		1D3F48B224BE076A00729297 /* MCStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCStudent.m; sourceTree = "<group>"; };
+		1D3F48B324BE076A00729297 /* MCDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDog.m; sourceTree = "<group>"; };
+		1D3F48B424BE076A00729297 /* MCPerson+Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCPerson+Test2.h"; sourceTree = "<group>"; };
+		1DE3490B24C7C6BE00E6F342 /* MCITPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCITPerson.h; sourceTree = "<group>"; };
+		1DE3490C24C7C6BE00E6F342 /* MCITPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCITPerson.m; sourceTree = "<group>"; };
 		E8BD13112477DB28006D7F9B /* Interview03-+initialize底层实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Interview03-+initialize底层实现"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BD13142477DB28006D7F9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E8BD131B2477DB45006D7F9B /* MCStudent+Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MCStudent+Test1.m"; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCStudent+Test1.m"; sourceTree = "<group>"; };
-		E8BD131C2477DB45006D7F9B /* MCStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCStudent.m; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCStudent.m"; sourceTree = "<group>"; };
-		E8BD131D2477DB45006D7F9B /* MCStudent+Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MCStudent+Test1.h"; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCStudent+Test1.h"; sourceTree = "<group>"; };
-		E8BD131E2477DB45006D7F9B /* MCPerson+Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MCPerson+Test1.m"; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCPerson+Test1.m"; sourceTree = "<group>"; };
-		E8BD131F2477DB45006D7F9B /* MCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCPerson.h; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCPerson.h"; sourceTree = "<group>"; };
-		E8BD13202477DB45006D7F9B /* MCCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCCat.h; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCCat.h"; sourceTree = "<group>"; };
-		E8BD13212477DB45006D7F9B /* MCStudent+Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MCStudent+Test2.h"; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCStudent+Test2.h"; sourceTree = "<group>"; };
-		E8BD13222477DB45006D7F9B /* MCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCPerson.m; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCPerson.m"; sourceTree = "<group>"; };
-		E8BD13232477DB45006D7F9B /* MCStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCStudent.h; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCStudent.h"; sourceTree = "<group>"; };
-		E8BD13242477DB45006D7F9B /* MCPerson+Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MCPerson+Test1.h"; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCPerson+Test1.h"; sourceTree = "<group>"; };
-		E8BD13252477DB45006D7F9B /* MCStudent+Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MCStudent+Test2.m"; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCStudent+Test2.m"; sourceTree = "<group>"; };
-		E8BD13262477DB45006D7F9B /* MCPerson+Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MCPerson+Test2.h"; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCPerson+Test2.h"; sourceTree = "<group>"; };
-		E8BD13272477DB45006D7F9B /* MCPerson+Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MCPerson+Test2.m"; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCPerson+Test2.m"; sourceTree = "<group>"; };
-		E8BD13282477DB45006D7F9B /* MCDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCDog.m; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCDog.m"; sourceTree = "<group>"; };
-		E8BD13292477DB45006D7F9B /* MCDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCDog.h; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCDog.h"; sourceTree = "<group>"; };
-		E8BD132A2477DB45006D7F9B /* MCCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCCat.m; path = "../../Interview02-Category中+load底层实现/Interview02-Category中+load底层实现/MCCat.m"; sourceTree = "<group>"; };
 		E8BD13332477DB6C006D7F9B /* MCTeacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCTeacher.h; sourceTree = "<group>"; };
 		E8BD13342477DB6C006D7F9B /* MCTeacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCTeacher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,24 +88,26 @@
 			isa = PBXGroup;
 			children = (
 				E8BD13142477DB28006D7F9B /* main.m */,
-				E8BD131F2477DB45006D7F9B /* MCPerson.h */,
-				E8BD13222477DB45006D7F9B /* MCPerson.m */,
-				E8BD13242477DB45006D7F9B /* MCPerson+Test1.h */,
-				E8BD131E2477DB45006D7F9B /* MCPerson+Test1.m */,
-				E8BD13262477DB45006D7F9B /* MCPerson+Test2.h */,
-				E8BD13272477DB45006D7F9B /* MCPerson+Test2.m */,
-				E8BD13232477DB45006D7F9B /* MCStudent.h */,
-				E8BD131C2477DB45006D7F9B /* MCStudent.m */,
-				E8BD131D2477DB45006D7F9B /* MCStudent+Test1.h */,
-				E8BD131B2477DB45006D7F9B /* MCStudent+Test1.m */,
-				E8BD13212477DB45006D7F9B /* MCStudent+Test2.h */,
-				E8BD13252477DB45006D7F9B /* MCStudent+Test2.m */,
+				1D3F48AD24BE076A00729297 /* MCPerson.h */,
+				1D3F48A624BE076900729297 /* MCPerson.m */,
+				1D3F48A724BE076900729297 /* MCPerson+Test1.h */,
+				1D3F48A824BE076A00729297 /* MCPerson+Test1.m */,
+				1D3F48B424BE076A00729297 /* MCPerson+Test2.h */,
+				1D3F48AA24BE076A00729297 /* MCPerson+Test2.m */,
+				1D3F48AB24BE076A00729297 /* MCStudent.h */,
+				1D3F48B224BE076A00729297 /* MCStudent.m */,
+				1D3F48AC24BE076A00729297 /* MCStudent+Test1.h */,
+				1D3F48A924BE076A00729297 /* MCStudent+Test1.m */,
+				1D3F48A524BE076900729297 /* MCStudent+Test2.h */,
+				1D3F48B124BE076A00729297 /* MCStudent+Test2.m */,
+				1D3F48AF24BE076A00729297 /* MCCat.h */,
+				1D3F48B024BE076A00729297 /* MCCat.m */,
+				1D3F48AE24BE076A00729297 /* MCDog.h */,
+				1D3F48B324BE076A00729297 /* MCDog.m */,
 				E8BD13332477DB6C006D7F9B /* MCTeacher.h */,
 				E8BD13342477DB6C006D7F9B /* MCTeacher.m */,
-				E8BD13202477DB45006D7F9B /* MCCat.h */,
-				E8BD132A2477DB45006D7F9B /* MCCat.m */,
-				E8BD13292477DB45006D7F9B /* MCDog.h */,
-				E8BD13282477DB45006D7F9B /* MCDog.m */,
+				1DE3490B24C7C6BE00E6F342 /* MCITPerson.h */,
+				1DE3490C24C7C6BE00E6F342 /* MCITPerson.m */,
 			);
 			path = "Interview03-+initialize底层实现";
 			sourceTree = "<group>";
@@ -164,15 +169,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8BD13322477DB45006D7F9B /* MCCat.m in Sources */,
-				E8BD132B2477DB45006D7F9B /* MCStudent+Test1.m in Sources */,
-				E8BD132F2477DB45006D7F9B /* MCStudent+Test2.m in Sources */,
-				E8BD132C2477DB45006D7F9B /* MCStudent.m in Sources */,
+				1DE3490D24C7C6BE00E6F342 /* MCITPerson.m in Sources */,
+				1D3F48BA24BE076A00729297 /* MCStudent+Test2.m in Sources */,
+				1D3F48B724BE076A00729297 /* MCStudent+Test1.m in Sources */,
+				1D3F48B924BE076A00729297 /* MCCat.m in Sources */,
+				1D3F48BB24BE076A00729297 /* MCStudent.m in Sources */,
+				1D3F48BC24BE076A00729297 /* MCDog.m in Sources */,
+				1D3F48B524BE076A00729297 /* MCPerson.m in Sources */,
 				E8BD13152477DB28006D7F9B /* main.m in Sources */,
-				E8BD132E2477DB45006D7F9B /* MCPerson.m in Sources */,
-				E8BD13312477DB45006D7F9B /* MCDog.m in Sources */,
-				E8BD132D2477DB45006D7F9B /* MCPerson+Test1.m in Sources */,
-				E8BD13302477DB45006D7F9B /* MCPerson+Test2.m in Sources */,
+				1D3F48B624BE076A00729297 /* MCPerson+Test1.m in Sources */,
+				1D3F48B824BE076A00729297 /* MCPerson+Test2.m in Sources */,
 				E8BD13352477DB6C006D7F9B /* MCTeacher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

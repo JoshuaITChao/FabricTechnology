@@ -11,6 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MCPerson : NSObject<NSCoding>
+{
+    int _sex;
+}
 @property (assign, nonatomic) int ID;
 @property (assign, nonatomic) int weight;
 @property (assign, nonatomic) int age;

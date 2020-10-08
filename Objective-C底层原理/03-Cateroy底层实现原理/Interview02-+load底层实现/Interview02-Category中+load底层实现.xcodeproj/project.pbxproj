@@ -159,14 +159,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8BD12F22477BE3A006D7F9B /* MCPerson.m in Sources */,
-				E8BD12FB2477D5CD006D7F9B /* MCStudent.m in Sources */,
-				E8BD13072477D654006D7F9B /* MCCat.m in Sources */,
 				E8BD13042477D640006D7F9B /* MCDog.m in Sources */,
+				E8BD12FE2477D5F3006D7F9B /* MCStudent+Test1.m in Sources */,
+				E8BD12FB2477D5CD006D7F9B /* MCStudent.m in Sources */,
+				E8BD12F22477BE3A006D7F9B /* MCPerson.m in Sources */,
+				E8BD13072477D654006D7F9B /* MCCat.m in Sources */,
 				E8BD13012477D604006D7F9B /* MCStudent+Test2.m in Sources */,
 				E8BD12F82477CB31006D7F9B /* MCPerson+Test2.m in Sources */,
 				E8BD12F52477CAFF006D7F9B /* MCPerson+Test1.m in Sources */,
-				E8BD12FE2477D5F3006D7F9B /* MCStudent+Test1.m in Sources */,
 				E8BD12EA2477BD29006D7F9B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

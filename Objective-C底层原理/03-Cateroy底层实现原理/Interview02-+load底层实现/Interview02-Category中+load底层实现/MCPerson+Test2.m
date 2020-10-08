@@ -11,9 +11,9 @@
 
 @implementation MCPerson (Test2)
 
-+ (void)initialize
++ (void)load
 {
-    NSLog(@"MCPerson(Test2) +initialize");
+    NSLog(@"MCPerson(Test2) +load");
 }
 
 @end

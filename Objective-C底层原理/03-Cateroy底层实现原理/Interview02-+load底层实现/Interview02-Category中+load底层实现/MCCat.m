@@ -10,9 +10,9 @@
 
 @implementation MCCat
 
-+ (void)initialize
++ (void)load
 {
-    NSLog(@"MCCat +initialize");
+    NSLog(@"MCCat +load");
 }
 
 @end

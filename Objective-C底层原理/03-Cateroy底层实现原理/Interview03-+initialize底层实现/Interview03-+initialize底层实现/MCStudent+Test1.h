@@ -1,5 +1,5 @@
 //
-//  MCStudent.m
+//  MCStudent+Test1.h
 //  Interview02-Category中+load底层实现
 //
 //  Created by rz-technology on 2020/5/22.
@@ -8,11 +8,10 @@
 
 #import "MCStudent.h"
 
-@implementation MCStudent
+NS_ASSUME_NONNULL_BEGIN
 
-+ (void)load
-{
-    NSLog(@"MCStudent +load");
-}
+@interface MCStudent (Test1)
 
 @end
+
+NS_ASSUME_NONNULL_END

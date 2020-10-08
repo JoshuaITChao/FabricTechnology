@@ -82,6 +82,7 @@
 
 - (void)other
 {
+    
     NSLog(@"%s", __func__);
 }
 
@@ -99,6 +100,9 @@
     }
     return [super resolveInstanceMethod:sel];
 }
+
+
+
 
 
 @end

@@ -11,6 +11,7 @@
 #import "MCStudent.h"
 #import "MCTeacher.h"
 #import <objc/runtime.h>
+#import "MCITPerson.h"
 
 
 void printMethodNamesOfClass(Class cls)
@@ -44,6 +45,9 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         [MCStudent alloc];
+        
+        [MCITPerson alloc];
+        
         
         // 模拟[MCStudent alloc]触发+initialized的底层逻辑
 //        BOOL studentInitialized = NO;
