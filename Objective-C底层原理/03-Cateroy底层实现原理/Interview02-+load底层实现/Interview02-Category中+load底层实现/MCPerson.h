@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MCPerson : NSObject
 
++ (void)test;
 
 @end
 

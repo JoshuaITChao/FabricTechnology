@@ -15,5 +15,9 @@
     NSLog(@"MCPerson +load");
 }
 
++ (void)test
+{
+    NSLog(@"MCPerson +test");
+}
 
 @end
